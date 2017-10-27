@@ -4,7 +4,7 @@
 body {
 		background-color: #777;
 		}
-#container {
+.container {
 		width: 960;
 		padding-top: 1px;
     	padding-right: 20px;
@@ -14,7 +14,7 @@ body {
 		font-family: "arial, helvetica neue, helvetica, sans-serif";
 	}
 
-#header {
+.header {
 		position: relative;
 		left: 0;
 		right: 0;
@@ -26,7 +26,7 @@ body {
 		text-align: center;
 		}
 
-#nav {
+.nav {
 		position: relative;
 		left: 142px;
 		right: 65px;
@@ -38,7 +38,7 @@ body {
 		text-align: center;
 		}
 	
-#section {
+.section {
     float: left;
     clear: right;
     margin: 10px;
@@ -50,7 +50,7 @@ body {
     text-align: center;
 }
 
-#article {
+.article {
 
 	padding-bottom: 55px;
 	margin-top: 1px;
@@ -59,10 +59,10 @@ body {
     width: 95%;
     height: 200px;
     background-color: #777;
-		text-align: center;
+	text-align: center;
 }
 
-#h1h2h3 {
+.h1h2h3 {
 
 	height: 65px;
 	width: 94%;
@@ -71,10 +71,10 @@ body {
 	margin-right: 20px;
 	background-color: white;
 	line-height: 60px;
-		text-align: center;
+	text-align: center;
 	}
 
-#p {
+.p {
 	height: 2px;
 	padding-bottom: 70px;
 	width: 100%;
@@ -83,9 +83,9 @@ body {
 	margin-right: 1px;
 	background-color: white;
 	line-height: 65px;
-		text-align: center;}
+	text-align: center;}
 
-#aside {
+.aside {
     float: right;
     clear: left;
     margin: -332px;
@@ -94,18 +94,14 @@ body {
     height: 370px;
     background-color: white;
     line-height: 90px;
-		text-align: center;
+	text-align: center;
 }
 
-
-
-
-#footer {
+.footer {
 		position: absolute;
 		left: 0;
 		right: 0;
 		bottom: 0;
-
 		margin: auto;
 		width: 79.5%;
 		height: 100px;
